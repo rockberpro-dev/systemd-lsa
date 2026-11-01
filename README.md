@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="resources/img/logo.png" alt="LSA logo" width="200">
+</p>
+
 <h1 align="center">Logical Systemd Aliases</h1>
 
 <p align="center">A curated set of short, memorable systemd aliases organized by category.</p>
