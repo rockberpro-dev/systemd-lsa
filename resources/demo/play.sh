@@ -9,7 +9,7 @@ sleep 0.8
 while IFS= read -r line; do
   if [[ $line == \#* ]]; then printf '%s%s%s\n' "$D" "$line" "$R"; sleep 0.6; continue; fi
   printf '%s$ %s' "$G" "$R"
-  for ((i=0;i<${#line};i++)); do printf '%s' "${line:i:1}"; sleep 0.04; done
+  for ((i=0;i<${#line};i++)); do printf '%s' "${line:i:1}"; sleep 0.07; done
   printf '\n'
   eval "$line"
   sleep 1.2
