@@ -1,0 +1,10 @@
+# Short aliases for systemctl
+scl --no-pager | head -n 5
+scf --no-pager
+# Is a service running?
+scs --no-pager cron | head -n 4
+# Journal helpers
+jld
+# Every alias, right in the terminal
+lsa | head -n 12
+clear
